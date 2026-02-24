@@ -1,4 +1,5 @@
 {
+  "homepage": "https://singularidad95.github.io/temporizador-de-intervalos/",
   "name": "react-native-sandbox",
   "version": "0.0.0",
   "private": true,
@@ -9,7 +10,9 @@
     "eject": "react-scripts eject",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/core": "10.0.35",
@@ -19,14 +22,14 @@
     "react-dom": "16.13.1",
     "react-native": "0.63.3",
     "react-native-web": "0.14.3",
-    "react-scripts": "3.4.4",
+    
     "expo-av": "16.0.8",
     "expo-modules-core": "3.0.29",
     "@react-native-async-storage/async-storage": "2.2.0",
     "react-native-safe-area-context": "5.6.2"
   },
   "devDependencies": {
-    "react-scripts": "1.0.0",
+    
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
